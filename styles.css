@@ -1,0 +1,55 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #333;
+    color: #fff;
+    z-index: 1000;
+    transition: background-color 0.3s ease;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 0;
+    display: block;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ff6347; /* Change to a different color on hover */
+}
+
+section {
+    padding: 100px 0;
+    height: 100vh;
+}
+
+#home { background: #f4f4f4; }
+#services { background: #e2e2e2; }
+#about { background: #d0d0d0; }
+#contact { background: #b8b8b8; }
+
+.scrolled {
+    background-color: #444; /* Change background color when scrolled */
+}
